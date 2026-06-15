@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title">
+  <title id="title">People working together at computers</title>
+  <rect width="640" height="360" fill="#f5f7fb"/>
+  <rect x="392" y="0" width="248" height="360" fill="#d9ecff"/>
+  <rect x="68" y="230" width="504" height="42" rx="6" fill="#7a6f66"/>
+  <rect x="390" y="116" width="150" height="100" rx="6" fill="#1a1a1a"/>
+  <rect x="404" y="130" width="122" height="72" fill="#9cdcfe"/>
+  <circle cx="168" cy="118" r="34" fill="#7b4b32"/>
+  <path fill="#ffd43b" d="M112 168c40-36 86-36 126 0v94H112z"/>
+  <circle cx="304" cy="144" r="31" fill="#b27755"/>
+  <path fill="#f8d8c8" d="M248 190c36-32 78-32 114 0v76H248z"/>
+  <path fill="#4f6bed" d="M292 232h182v18H292z"/>
+</svg>

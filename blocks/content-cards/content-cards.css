@@ -1,0 +1,125 @@
+.content-cards > ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.content-cards > ul > li {
+  min-width: 0;
+}
+
+.content-cards .content-cards-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 16%);
+}
+
+.content-cards .content-cards-card-image {
+  line-height: 0;
+  background: var(--light-color);
+}
+
+.content-cards .content-cards-card-image picture,
+.content-cards .content-cards-card-image img {
+  display: block;
+  width: 100%;
+}
+
+.content-cards .content-cards-card-image img {
+  aspect-ratio: 16 / 9;
+  height: auto;
+  object-fit: cover;
+}
+
+.content-cards .content-cards-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 28px 28px 32px;
+}
+
+.content-cards .content-cards-card-body :is(h2, h3, h4, h5, h6) {
+  margin: 0 0 16px;
+  font-family: var(--body-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.content-cards .content-cards-card-body p {
+  margin: 0 0 16px;
+  font-size: var(--body-font-size-s);
+  line-height: 1.45;
+}
+
+.content-cards .content-cards-card-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: auto;
+  padding-top: 24px;
+}
+
+.content-cards .content-cards-card-actions a:any-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #0067b8;
+  font-size: var(--body-font-size-s);
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.content-cards .content-cards-card-actions a:any-link::after {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border: solid currentcolor;
+  border-width: 2px 2px 0 0;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.content-cards .content-cards-card-actions a:hover,
+.content-cards .content-cards-card-actions a:focus {
+  color: #005da6;
+  text-decoration: underline;
+}
+
+.content-cards .content-cards-card-actions a:focus-visible {
+  outline: 2px solid currentcolor;
+  outline-offset: 3px;
+}
+
+@media (width >= 600px) {
+  .content-cards > ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width >= 900px) {
+  .content-cards > ul {
+    gap: 32px;
+  }
+
+  .content-cards .content-cards-card-body {
+    padding: 32px;
+  }
+}
+
+@media (width >= 1200px) {
+  .content-cards-container .content-cards-wrapper {
+    max-width: 1600px;
+  }
+
+  .content-cards > ul {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
