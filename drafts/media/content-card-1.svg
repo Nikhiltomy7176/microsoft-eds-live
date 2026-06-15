@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title">
+  <title id="title">Volunteers stacking hands together</title>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dff4ff"/>
+      <stop offset="1" stop-color="#f7fbff"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#sky)"/>
+  <circle cx="102" cy="82" r="44" fill="#624b3a"/>
+  <circle cx="548" cy="92" r="42" fill="#8c6246"/>
+  <path fill="#f4c542" d="M0 190 200 88l46 78L28 308z"/>
+  <path fill="#66a80f" d="m640 176-212-94-38 82 230 140z"/>
+  <path fill="#00a4a6" d="m176 158 222 6 2 86-226-4z"/>
+  <path fill="#008f96" d="m260 116 72 6 18 158-88-2z"/>
+  <circle cx="318" cy="188" r="66" fill="#00b7c3"/>
+</svg>
